@@ -485,6 +485,7 @@
             this.from6textBox.Name = "from6textBox";
             this.from6textBox.Size = new System.Drawing.Size(130, 26);
             this.from6textBox.TabIndex = 247;
+            this.from6textBox.TextChanged += new System.EventHandler(this.from6textBox_TextChanged);
             // 
             // from5label
             // 
@@ -566,6 +567,7 @@
             this.from5textBox.Name = "from5textBox";
             this.from5textBox.Size = new System.Drawing.Size(130, 26);
             this.from5textBox.TabIndex = 237;
+            this.from5textBox.TextChanged += new System.EventHandler(this.from5textBox_TextChanged);
             // 
             // from4label
             // 
@@ -647,6 +649,7 @@
             this.from4textBox.Name = "from4textBox";
             this.from4textBox.Size = new System.Drawing.Size(130, 26);
             this.from4textBox.TabIndex = 227;
+            this.from4textBox.TextChanged += new System.EventHandler(this.from4textBox_TextChanged);
             // 
             // from3label
             // 
@@ -728,6 +731,7 @@
             this.from3textBox.Name = "from3textBox";
             this.from3textBox.Size = new System.Drawing.Size(130, 26);
             this.from3textBox.TabIndex = 217;
+            this.from3textBox.TextChanged += new System.EventHandler(this.from3textBox_TextChanged);
             // 
             // from2label
             // 
@@ -809,6 +813,7 @@
             this.from2textBox.Name = "from2textBox";
             this.from2textBox.Size = new System.Drawing.Size(130, 26);
             this.from2textBox.TabIndex = 207;
+            this.from2textBox.TextChanged += new System.EventHandler(this.from2textBox_TextChanged);
             // 
             // from1label
             // 
@@ -930,18 +935,19 @@
             this.from1textBox.Name = "from1textBox";
             this.from1textBox.Size = new System.Drawing.Size(130, 26);
             this.from1textBox.TabIndex = 195;
+            this.from1textBox.TextChanged += new System.EventHandler(this.from1textBox_TextChanged);
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(364, 398);
+            this.dataGridView1.Location = new System.Drawing.Point(229, 481);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(240, 150);
             this.dataGridView1.TabIndex = 286;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(716, 409);
+            this.button1.Location = new System.Drawing.Point(963, 468);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(167, 43);
             this.button1.TabIndex = 287;
